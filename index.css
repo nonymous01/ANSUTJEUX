@@ -99,7 +99,6 @@ main {
     
     color:#2256A3;
     display: flex;
-    z-index: 1;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -218,6 +217,8 @@ input[type=radio]:checked ~ .option {
     align-items: center;
     justify-content: space-around;
     border-radius: 25px;
+    position: relative;
+    bottom: 50px;
 }
 
 .modal-content-container h1 {
@@ -264,6 +265,7 @@ input[type=radio]:checked ~ .option {
 #display-question{
     color:#ffffff;
     width: 100%;
+     
 }
 .image{
     width: 125%;  
